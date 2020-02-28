@@ -1,6 +1,6 @@
 <idea-plugin>
-  <id>bitwise-rider</id>
-  <name>Readable bitwise operations</name>
+  <id>rider-plugin-id-here</id>
+  <name>Rider Plugin Human Readable Name Here</name>
   <version>1.0</version>
   <vendor>PostSharp Technologies</vendor>
   <idea-version since-build="191" />
@@ -8,7 +8,9 @@
 
   <description>
 <![CDATA[
-<p>Folds simple bitwise operations on enum flags into simpler green text.</p>
+<p>
+  Rider Plugin Human Readable Description Here.
+</p>
 ]]>
   </description>
 

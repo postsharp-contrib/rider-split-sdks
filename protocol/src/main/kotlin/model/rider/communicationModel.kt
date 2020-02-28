@@ -5,7 +5,7 @@ import com.jetbrains.rd.generator.nova.*
 import com.jetbrains.rd.generator.nova.PredefinedType.*
 
 @Suppress("unused")
-object safenestModel : Ext(SolutionModel.Solution) {
+object communicationModel : Ext(SolutionModel.Solution) {
 
     val MyEnum = enum {
         +"FirstValue"
