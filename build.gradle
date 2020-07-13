@@ -154,7 +154,7 @@ patchPluginXml {
     }.take(1).join('')
     
     sinceBuild = "192.0.0"
-    untilBuild = "195.0.*"
+    untilBuild = "400.0.*"
 }
 
 prepareSandbox {
