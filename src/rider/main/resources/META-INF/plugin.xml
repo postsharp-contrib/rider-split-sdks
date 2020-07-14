@@ -1,6 +1,6 @@
 <idea-plugin>
-  <id>rider-plugin-id-here</id>
-  <name>Rider Plugin Human Readable Name Here</name>
+  <id>split-sdks</id>
+  <name>Split SDK lines</name>
   <version>1.0</version>
   <vendor>PostSharp Technologies</vendor>
   <idea-version since-build="191" />
@@ -9,7 +9,7 @@
   <description>
 <![CDATA[
 <p>
-  Rider Plugin Human Readable Description Here.
+  Adds a .csproj quick fix that replace the SDK line in the file header with two import statements.
 </p>
 ]]>
   </description>
