@@ -15,9 +15,21 @@
   </description>
 
   <extensions defaultExtensionNs="com.intellij">
+    <localInspection language="XML"
+                     displayName="Splitting Sdk attributes into Sdk.props and Sdk.targets"
+                     groupPath="Java"
+                     groupBundle="messages.InspectionsBundle"
+                     groupKey="group.names.probable.bugs"
+                     enabledByDefault="true"
+                     level="INFORMATION"
+                     implementationClass="net.postsharp.splitsdks.SplitSdksInspection" />
   </extensions>
-  
+
   <actions>
+<!--    <action id="SampleAction" class="net.postsharp.splitsdks.SampleAction"-->
+<!--            text="Do Something" description="Do Something Description">-->
+<!--      <add-to-group group-id="ToolsMenu" anchor="last" />-->
+<!--    </action>-->
   </actions>
   
 </idea-plugin>
