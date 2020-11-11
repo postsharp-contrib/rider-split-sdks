@@ -2,15 +2,15 @@
   <PropertyGroup>
     <SdkVersion>2019.2.0-*</SdkVersion>
     
-    <Title>Readable bitwise operations</Title>
-    <Description>Folds simple bitwise operations on enum flags into simpler green text</Description>
+    <Title>Split SDK attribute</Title>
+    <Description>Splits Sdk="Microsoft.NET.Sdk" into Sdk.props and Sdk.targets</Description>
   
-    <Authors>Petr Hudeček</Authors>
-    <Copyright>Copyright 2019 PostSharp Technologies</Copyright>
+    <Authors>PostSharp Technologies</Authors>
+    <Copyright>Copyright 2019-2020 PostSharp Technologies</Copyright>
     <PackageTags>resharper plugin</PackageTags>
   
-    <PackageProjectUrl></PackageProjectUrl>
-    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/postsharp-contrib/rider-split-sdks</PackageProjectUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageIconUrl></PackageIconUrl>
   </PropertyGroup>
 </Project>
